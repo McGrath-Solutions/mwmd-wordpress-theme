@@ -53,7 +53,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="content-layout-wrapper layout-item-0">
+                <!--<div class="content-layout-wrapper layout-item-0">
                     <div class="content-layout layout-item-1">
                         <div class="content-layout-row">
                             <div class="layout-cell layout-item-3" style="width: 50%" >
@@ -79,7 +79,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
                                 
                 </div>
