@@ -1,2 +1,0 @@
-mwmd-wordpress-theme
-====================
