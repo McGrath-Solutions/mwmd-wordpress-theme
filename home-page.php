@@ -33,6 +33,35 @@
                         </div>
                     </div>
                 </div>
+                
+                <div class="content-layout">
+    <div class="content-layout-row">
+        <div class="layout-cell layout-item-1" style="width: 100%" >
+            
+
+
+
+            <div class="postcontent postcontent-0 clearfix"><div class="content-layout-wrapper layout-item-0">
+                    
+                    <div class="content-layout layout-item-1">
+                        <div class="content-layout-row">
+                            <div class="layout-cell layout-item-2" style="width: 100%" >
+                                
+                                
+                                    <?php
+            $mwdcNewsPosts = new WP_Query();
+            $mwdcNewsPosts->query('showposts=1&cat=9');
+            while ($mwdcNewsPosts->have_posts()) : $mwdcNewsPosts->the_post();
+                {
+                    get_template_part('content', 'home');
+                    
+                }
+            endwhile;
+            ?>
+                                
+                        </div>
+                    </div>
+                </div>
                     
                     <div class="content-layout layout-item-1">
                         <div class="content-layout-row">
